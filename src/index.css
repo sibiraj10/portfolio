@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: sans-serif;
+}
+
+
+
+header ul li{
+  @apply text-lg delay-100 hover:border-b-2 hover:border-white  
+}
+
+.mobile-nav{
+  @apply fixed top-16 left-0 bg-gray-600 w-full  h-fit   text-center 
+}
+.mobile-nav li {
+  @apply border-b-2 border-white
+}
+.about-p{
+  @apply text-xl
+}
+
+.project-desc{
+ @apply absolute top-0 bg-secondary h-full w-full text-xl px-3 py-5 text-center opacity-0 duration-500 hover:opacity-100
+}
+.btn{
+  @apply bg-primary px-5 py-3 font-bold hover:border-2 border-white rounded
+}
+
+html{
+  scroll-behavior: smooth;
+}
