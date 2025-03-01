@@ -3,7 +3,7 @@
 const Contact = () => {
   const config = {
     email:"sibirajselvam1@gmail.com",
-    phone:"73587201"
+    phone:"7358793201"
   }
   return (
    <section className='flex flex-col bg-primary py-20 px-10 items-center'>
